@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="240" height="120" viewBox="0 0 240 120">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-0.168" y1="0.919" x2="0.762" y2="-0.011" gradientUnits="objectBoundingBox">
+      <stop offset="0.108" stop-color="#c757bc"/>
+      <stop offset="0.173" stop-color="#cd5ca9"/>
+      <stop offset="0.492" stop-color="#e8744f"/>
+      <stop offset="0.716" stop-color="#f88316"/>
+      <stop offset="0.823" stop-color="#ff8900"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.319" y1="1.359" x2="0.773" y2="0.456" gradientUnits="objectBoundingBox">
+      <stop offset="0.296" stop-color="#00afff"/>
+      <stop offset="0.694" stop-color="#5282ff"/>
+      <stop offset="1" stop-color="#945dff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-0.024" y1="0.523" x2="0.61" y2="-0.08" xlink:href="#linear-gradient-2"/>
+    <clipPath id="clip-_01">
+      <rect width="240" height="120"/>
+    </clipPath>
+  </defs>
+  <g id="_01" data-name="01" clip-path="url(#clip-_01)">
+    <g id="Group_19993" data-name="Group 19993" transform="translate(523 25.927)">
+      <g id="kotlin-seeklogo.com" transform="translate(-484 16)">
+        <g id="_Group_" data-name="&lt;Group&gt;" transform="translate(44.985)">
+          <path id="_Compound_Path_" data-name="&lt;Compound Path&gt;" d="M187.058,6.065h7.487V20.941L208.352,6.065h9.043L203.539,20.5,218.026,40.1h-8.994L198.483,25.609l-3.938,4.083V40.1h-7.487Z" transform="translate(-187.058 -4.606)" fill="#000400"/>
+          <path id="_Compound_Path_2" data-name="&lt;Compound Path&gt;" d="M299.286,50.858v-.1c0-7.487,6.029-13.564,14.147-13.564,8.07,0,14.05,5.98,14.05,13.467v.1c0,7.487-6.029,13.563-14.147,13.563C305.266,64.325,299.286,58.345,299.286,50.858Zm20.9,0v-.1a6.923,6.923,0,0,0-6.855-7.2c-4.23,0-6.758,3.257-6.758,7.1v.1a6.923,6.923,0,0,0,6.855,7.195C317.663,57.956,320.191,54.7,320.191,50.858Z" transform="translate(-272.297 -28.252)" fill="#000400"/>
+          <path id="_Compound_Path_3" data-name="&lt;Compound Path&gt;" d="M415.193,28.1V15.752h-3.111V9.432h3.111V2.771h7.39V9.432h6.126v6.32h-6.126V26.885c0,1.7.729,2.528,2.382,2.528a7.511,7.511,0,0,0,3.646-.924V34.42a10.893,10.893,0,0,1-5.834,1.507C418.256,35.927,415.193,34.128,415.193,28.1ZM430.83,0h7.39V35.489h-7.39Zm10.061,0h7.778V6.563h-7.778Zm.195,9.432h7.389V35.489h-7.39Zm10.2,0h7.39v3.695c1.7-2.188,3.889-4.181,7.633-4.181,5.591,0,8.848,3.695,8.848,9.675V35.489h-7.39V20.954c0-3.5-1.653-5.3-4.473-5.3s-4.618,1.8-4.618,5.3V35.489h-7.39Z" transform="translate(-357.967)" fill="#000400"/>
+        </g>
+        <path id="Path_111210" data-name="Path 111210" d="M17.083,5.994,0,23.959v16.06L17.058,22.93,34.025,5.994H17.083Z" transform="translate(0 -4.553)" fill="url(#linear-gradient)"/>
+        <path id="_Path_" data-name="&lt;Path&gt;" d="M0,93.508,17.058,76.42,34.025,93.508H0Z" transform="translate(0 -58.042)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_111211" data-name="Path 111211" d="M0,5.994H17.083L0,23.959Z" transform="translate(0 -4.553)" fill="url(#linear-gradient-3)"/>
+      </g>
+    </g>
+  </g>
+</svg>

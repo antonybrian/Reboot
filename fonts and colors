@@ -1,0 +1,19 @@
+fonts
+
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+
+colors
+
+#007AF3 blueish
+#FE7C00 orange light
+#FFD832 yellow
+#011B56 dark  blue
+#ACADA8 light gray
+#746D69 dark gray
+#030200 dark night black
+
+gradients
+

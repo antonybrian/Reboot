@@ -1,0 +1,716 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    height: 90px;
+  
+    
+}
+
+.active{
+    border-right: 5px solid #007af3;
+    border-left: 5px solid #007af3;
+    padding: 0 5px;
+
+}
+header a {
+    color: #007af3;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+.nav-links li{
+    display:inline-block;
+    margin:15px 20px;
+    
+
+   
+}
+.nav-links li a{
+    color: #007af3;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    
+    
+
+}
+.nav-links li:hover{
+    padding-bottom: 5px;
+    border-bottom: 5px solid #007af3;
+    font-size: 20px ;
+    
+    
+}
+.nav-links li a:hover{
+    color:#0269A4;
+
+}
+.logo{
+    margin-left: 8%;
+    font-size: 24px;
+    letter-spacing: 2px;
+  
+} 
+header li:nth-of-type(4) {
+    margin-right: 40px;
+  }
+
+header span{
+    position: relative;
+    z-index: 1;
+}
+header span::before{
+    content: "";
+    width: 50px;
+    height: 6px;
+    background: #007AF3;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -15px; 
+
+}
+.active{
+    border-right: 5px solid #007af3;
+    border-left: 5px solid #007af3;
+    padding: 0 5px;
+
+}
+.about-title{
+    text-align: center;
+    margin:70px 30px;
+    
+}
+
+
+.about-title p{
+    margin-top: -40px;
+    opacity: 0.7;
+}
+.about-title h3, .vision h3, .approach h3, .process h3{
+    font-size: 43px;
+    font-weight: bold;
+}
+.line{
+    width: 70%;
+    height:4px;
+    margin: auto;
+    background: #000;
+}
+.cyber{
+    width: 100%;
+    text-align: center;  
+    padding-top: 15px; 
+    border-radius: 25px;
+    margin:auto;
+    
+    
+
+}
+
+.cyber-slogan{
+    font-size: 25px;
+}
+.cyber h3, .web h3, .data h3, .newtech h3{
+    font-size: 33px;
+
+}
+.cyber-offers, .cyber-offers2{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.cyber-offers p{
+    text-align: start;
+    font-size: 15px;
+}
+
+.penetration, .application-security, .network-security, .network2 {
+  
+    padding: 15px 55px;
+    width: 500px;
+    margin:14px;
+}
+.penetration h4, .application-security h4, .network-security h4, .mobile h4, .software h4, .network h4, .data h4, .newtech h4{
+    font-size: 25px;
+
+}
+.penetration{
+
+       
+    border-radius: 25px;
+    height: 600px;
+    background:rgba(0,122, 243, 1);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    
+    
+}
+
+.application-security{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    margin-top: 40%;
+    border-radius: 35px;
+    color: white;
+    font-weight: bold;
+    
+    
+    
+}
+.cyber-offers{
+    background: url("../images/christina-wocintechchat-com-gpMR_XKKXpA-unsplash.jpg");
+    background-size: cover;
+    width: 100%;
+}
+.application-security ul li, .penetration ul li, .network-security ul li,.extraservices ul li ,.mobile ul li{
+    list-style-type: square;
+    text-align: start;
+}
+.network-security{
+    background:white;
+    margin-top: -25%;
+    text-align: start;
+    margin-bottom: 50px;
+    font-size: 14px;
+    margin-left: -45%;
+    border-radius: 25px;
+    font-weight: bold;
+    
+    
+}
+.web{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.web-head{
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+    margin-top: 50px;
+    background-image: url("../images/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg");
+    background-size: cover;
+}
+.web-offers{
+    
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    top: auto;
+    
+    
+    
+}
+.design, .development, .extraservices{
+    width: 400px;
+    height: 370px;
+    text-align: start;
+    padding: 20px 20px;
+    background: #f2f2f2;
+    margin-top: 50px;
+    transition: all 0.3s ease;
+    animation: FadeIn 10s infinite alternate-reverse;
+    font-weight: 500;
+    
+}
+@keyframes FadeIn{
+    from{
+        transform: translateX(0);
+
+    }
+    to{
+        transform: translateX(100%);
+
+    }
+}
+.development{
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    color: white;
+    font-weight: bold;
+}
+
+.design:hover, .development:hover, .extraservices:hover{
+    margin-top: 80px;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    color: #fff;
+    border: none;
+    font-weight: 500;
+    
+}
+.web-frameworks{
+    padding: 20px 10px;
+}
+
+.framework-images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.web-frameworks h4{
+    font-size: 33px;
+}
+.mobile, .network{
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.mobile-offers{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: start;
+}
+.android, .ios{
+    width: 400px;
+}
+.mobile h3, .software h3 ,.network h3{
+    font-size: 43px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.mobile h3 span, .software h3 span{
+    font-weight: bold;
+    margin-top: 40px;
+    position: absolute;
+    font-weight: normal;
+}
+
+
+.ios{
+    margin-top: 15%;
+}
+.android{
+    margin-top: 50px;
+}
+.ios-extra {
+    text-align: start;
+    width: 450px;
+    height: 250px;
+    margin-left: 17%;
+    font-size: 22px;
+    
+}
+.software{
+    
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+    font-size: 16px;
+}
+.block1, .block2{
+    display: flex;
+    width: 100%;
+    border: 3px solid white;
+}
+h3
+
+.imglike, .imglike2{
+    height:400px;
+    width:50%;
+    text-align: center;
+    background-size: cover;
+    color: #fff;
+    transition: all 0.3s ease;
+    
+    
+}
+.imglike{
+    background: url("../images/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: cover ;
+    color: #fff;
+    margin-left: 0;
+    transition: all 0.3s ease;
+}
+.imglike:hover, .imglike2:hover{
+    margin-top: -20px;
+}
+
+.custom-software, .business-software, .software-upgrade, .network-art, .network-design, .network-sdn{
+    text-align: start;
+    width: 50%;
+    padding: 50px 0;
+    
+}
+.software h4, .software p, .network h4, .network p{
+    padding: 0 60px;
+  
+}
+
+.software-upgrade, .network-sdn{
+    border: 2px solid #f2f2f2;
+   
+    
+}
+.custom-software, .network-sdn{
+    margin-top: 60px;
+}
+.divider, .divider2{
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(-20deg, #2b5876 0%, #4e4376 100%);
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    
+    
+}
+.divider ul, .divider2 ul{
+    display: flex;
+    padding-top:50px;
+    margin-left: 10%;
+    margin-top: 4%;
+    
+    
+    
+}
+.divider ul li, .divider ul li{
+    margin-top: 25px;
+    text-align: center;
+    
+}
+.divider .divider-p, .divider2-p{
+    font-size: 25px;
+    text-align: start;
+    border-left: 10px solid rgb(189, 33, 41); 
+    padding-left:15px;
+    margin:0;
+   
+}
+
+.divider a, .divider2 a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 100px;
+    padding: 0 3px;
+    border-bottom: 2px solid #fff;
+    
+    
+    
+   
+}
+.divider a:hover{
+    border-bottom: 5px solid #fff;  
+    
+    
+
+
+}
+#divider2{
+    background:linear-gradient(to right, rgb(173, 83, 137), rgb(60, 16, 83));
+}
+.imglike2{
+    background: url("../images/thomas-jensen-ISG-rUel0Uw-unsplash.jpg");
+    background-size: cover;
+}
+.imglike2 p{
+    font-weight: bold;
+    background: rgba(0,12,0,0.4)
+}
+.data{
+    margin-top: 50px;
+    text-align: center;
+}
+.data-img{
+    margin-left: -30%;
+}
+.data-offers-block1{
+    display: flex;
+    justify-content: space-around;
+}
+.data-recovery{
+    margin-top: 50px;
+    border-bottom: 4px solid #000;
+    width: 500px;
+    margin-left: 50px;
+}
+.data-digitization {
+    border-bottom: 4px solid #000;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 10%;
+
+}
+.data-recovery p, .data-digitization p{
+    text-align: start;
+}
+.data-analytics{
+    width: 100%;
+    margin-top: 100px;
+}
+.data-analytics-block1{
+    display: flex;
+    width: 100%;
+}
+.data-analytics-block1 img{
+    width: 50%;
+    height: 500px;
+}
+.big-data-content {
+    text-align: start;
+    padding: 0 160px;
+    width: 400px;
+}
+#weapon, #power{
+    font-size: 30px;
+}
+.bigdata-offers h3{
+    width: 100%;
+    background: linear-gradient(to right, rgb(218, 68, 83), rgb(137, 33, 107));
+    color: #fff;
+    padding:20px;
+    font-size: 26px;
+    
+}
+.bigdata-services{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-bottom: 4px solid #f2f2f2;
+}
+.bigdata-services p{
+    text-align: start;
+    width: 400px;
+}
+.data-forensics{
+    width: 600px;
+    text-align: start;
+    margin-left: 10%;
+}
+.data-forensics span{
+    font-weight: bold;
+}
+.data-forensics ul li{
+    list-style-type: square;
+}
+.newtech {
+    text-align: center;
+}
+.blochchain-block1, .iot-block1{
+    display: flex;
+    width: 100%;
+}
+.blochchain-block1 img, .iot-block1 img{
+    width: 50%;
+    height: 550px;
+}
+.blochchain-block1 p{
+    text-align: start;
+    padding: 0 30px;
+}
+.blochchain-block1 span{
+    font-weight: bold;
+}
+.blochchain-block1 ul li{
+    list-style-type: square;
+    text-align: start;
+}
+
+.specialize{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(0,12,0,0.7);
+    padding: 25px;
+    line-height: 32px;
+    color: #fff;
+    margin-left: -10%;
+    transition: all 0.3s ease;
+    
+}
+img{
+    transition: all 0.3s ease;
+}
+img:hover{
+    margin-top: -20px;
+}
+.specialize:hover{
+    box-shadow: 10px 15px 20px gray;
+}
+.blockchain2{
+    width: 100%;
+    height: 200px;
+    background: rgba(1,27, 86, 0.8);    
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    margin-top: -75px;
+   
+    
+}
+.blockchain2 p{
+    text-align: start;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.iot{
+    margin-top: 50px;
+
+}
+.iot-content p{
+    text-align: start;
+    padding: 10px 30px;
+}
+#smart, #propel{
+    font-size: 25px;
+}
+.iot blockquote{
+    font-style: italic;
+}
+.iot-paragraph{
+    font-size: 26px;
+    border-bottom: 4px solid rgba(0,12,0,0.4);
+    width: 42%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 15px;
+}
+.advantages-iot {
+    display: flex;
+    justify-content: space-around;
+}
+.advantages-iot li{
+    width: 400px;
+    height:400px;
+    background-color:rgba(220,220,220,0.7);
+    margin: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    
+    
+}
+.advantages-iot li:hover{
+    box-shadow: 10px 15px 20px gray;
+}
+.create-together{
+    width: 60%;
+    height: 400px;
+    margin:auto;
+    padding: 15px;
+    margin-top: 100px;
+
+}
+.create-together h3{
+    font-size: 28px;
+    text-align: center;
+    
+}
+.create-together img{
+    margin:auto;
+}
+.cta-start{
+    padding: 15px 60px;
+    border: 2px solid ;
+    transition: all 0.4s ease;
+    position:relative;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.cta-start:hover{
+    padding: 15px 80px;
+    border:none;
+    color:#fff;
+    cursor: pointer;
+    background:#007AF3;
+}
+/* Footer Begins Here */
+
+footer{
+    
+    background:#030200;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 50px;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.visit-footerAt img, .social-sites img{
+    width: 30px;
+    height: 30px;
+}
+.footer-content{
+    display:grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    
+
+}
+.copyright, .social-sites{
+    text-align: center;
+}
+.map-cta{
+    padding: 10px 25px;
+    border: 2px solid ;
+    margin: 0 20px;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color:#fff;
+    background: rgba(0,122, 243, 0.7);
+    border:none;
+    outline:none;
+    position:absolute;    
+    margin-left: -3px;
+
+}
+
+
+.social-sites img{
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+.footer-links li, .explore-footer li{
+    padding:10px;
+}
+.social-sites img:hover{
+    width: 40px;
+    height: 40px;
+    
+}
+.footer-logo{
+    width: 100%;
+}
+.about-footer p,.explore-footer p, .visit-footer p{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    border-bottom: 2px solid #007af3;
+}
+.visit-footer li p{
+    font-weight: normal;
+    font-size:18px;
+    opacity: 0.7;
+}
+footer li a{
+    opacity: 0.7;
+}

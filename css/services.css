@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;600;700&family=Raleway:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+.active{
+    border-right: 5px solid #007af3;
+    border-left: 5px solid #007af3;
+    padding: 0 5px;
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    height: 50px;
+    padding-top: 15px;
+  
+    
+}
+header a {
+    color: #007af3;
+    
+}
+a{
+    text-decoration: none;
+    
+}
+li{
+    list-style: none;
+}
+.nav-links li{
+    display:inline-block;
+    margin:15px 20px;
+    
+
+   
+}
+.nav-links li a{
+    color: #007af3;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    
+    
+
+}
+.nav-links li:hover{
+    padding-bottom: 5px;
+    border-bottom: 5px solid #007af3;
+    font-size: 20px ;
+    
+    
+}
+.nav-links li a:hover{
+    color:#0269A4;
+
+}
+.logo{
+    margin-left: 8%;
+    font-size: 24px;
+    letter-spacing: 2px;
+  
+} 
+header li:nth-of-type(4) {
+    margin-right: 40px;
+  }
+
+header span{
+    position: relative;
+    z-index: 1;
+}
+header span::before{
+    content: "";
+    width: 50px;
+    height: 6px;
+    background: #007AF3;
+    position:absolute;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -15px; 
+
+}
+.what-do{
+    width: 100%;
+    margin-top: -35px;
+    height: 550px;
+    background-image: url("../images/xps-7ZWVnVSaafY-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.what-do p{
+    text-align: center;
+    color:#fff;
+   
+}
+.nav-links li a{
+    color: #007af3;
+    letter-spacing: 2px;
+    transition: all 0.3
+    
+}
+.main-p{
+    font-size: 54px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10%;
+}
+.main-p2{
+    margin-top: -30px;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+.about-title, .cyber, .recovery, .webdev, .mobile, .network, .software, .blockchain, .iot{
+    text-align: center;
+    margin:70px 30px;
+    
+}
+
+.cyber p, .recovery p, .webdev p, .mobile p, .network p, .software p, .blockchain p, .iot p{
+    text-align: start;
+    width: 60%;
+    margin-left: 20%;
+    font-size: 16px;
+}
+.about-title p{
+    margin-top: -40px;
+    opacity: 0.7;
+}
+.about-title h3, .cyber h3, .recovery h3, .webdev h3, .mobile h3, .network h3, .software h3, .blockchain h3, .iot h3{
+    font-size: 43px;
+    font-weight: bold;
+}
+.cyber, .recovery, .webdev, .mobile, .network, .software, .blockchain, .iot{
+    display:flex;
+    width: 100%;
+    
+}
+.cyber-left, .recovery-right, .webdev-left, .mobile-right, .network-left, .software-right, .blockchain-left, .iot-right {
+    margin: 15px;
+    padding: 15px;
+    width: 50%;
+    text-align: center;
+}
+.cyber-right img, .recovery-left img, .webdev-right img, .mobile-left img, .network-right img, .software-left img, .blockchain-right img, .iot-left img{
+    height:570px;
+    width: 600px;
+    object-fit: cover;
+
+}
+.learn{
+    margin-top: 25px;
+    padding: 10px 40px;
+    border: 2px solid ;
+    transition: all 0.4s ease;
+    margin-top: 40px;
+    margin-left: -100px;
+    position: absolute;    
+    
+}
+.learn:hover{
+    padding: 15px 45px;
+    border:none;
+    color:#fff;
+    cursor: pointer;
+    background:#007AF3;
+   
+}
+
+
+/* Footer Begins Here */
+
+footer{
+    
+    background:#030200;
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px 50px;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+.visit-footer img, .social-sites img{
+    width: 30px;
+    height: 30px;
+}
+.footer-content{
+    display:grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+    
+
+}
+.copyright, .social-sites{
+    text-align: center;
+}
+.map-cta{
+    padding: 10px 25px;
+    border: 2px solid ;
+    margin: 0 20px;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color:#fff;
+    background: rgba(0,122, 243, 0.7);
+    border:none;
+    outline:none;
+    position:absolute;    
+    margin-left: -3px;
+
+}
+
+
+.social-sites img{
+    margin: 10px;
+    transition: all 0.3s ease;
+}
+.footer-links li, .explore-footer li{
+    padding:12px;
+}
+.social-sites img:hover{
+    width: 40px;
+    height: 40px;
+    
+}
+.footer-logo{
+    width: 100%;
+}
+.about-footer p,.explore-footer p, .visit-footer p{
+    font-weight: bold;
+    font-size: 18px;
+}
+footer a{
+    text-decoration: none;
+    color: #fff;
+}
+footer a:hover{
+    border-bottom: 2px solid #007af3;
+}
+.visit-footer li p{
+    font-weight: normal;
+    font-size:18px;
+    opacity: 0.7;
+}
+footer li a{
+    opacity: 0.7;
+}
